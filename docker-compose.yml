@@ -12,7 +12,7 @@ services:
     command: [ "bash", "./geth-entrypoint" ]
     env_file:
       # select your network here:
-#      - .env.goerli
+      - .env.goerli
       - .env.sepolia
       - .env.mainnet
   node:
