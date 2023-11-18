@@ -29,5 +29,5 @@ services:
     env_file:
       # select your network here:
 #      - .env.goerli
-#      - .env.sepolia
+      - .env.sepolia
       - .env.mainnet
